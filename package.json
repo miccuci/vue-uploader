@@ -1,0 +1,45 @@
+{
+  "name": "vue-base-template",
+  "version": "0.0.1",
+  "description": "A vue base component template with Element UI & axios",
+  "author": "miccuci <miccuci@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "0.18.1",
+    "core-js": "^3.6.5",
+    "dayjs": "^1.8.15",
+    "element-ui": "2.7.2",
+    "jquery": "^3.5.1",
+    "js-cookie": "2.2.0",
+    "spark-md5": "^3.0.1",
+    "vue": "2.6.10",
+    "vue-simple-uploader": "^0.7.6"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.4.4",
+    "@vue/cli-plugin-eslint": "^4.4.4",
+    "@vue/cli-service": "^4.4.4",
+    "babel-eslint": "10.0.1",
+    "eslint": "5.15.3",
+    "eslint-plugin-vue": "5.2.2",
+    "html-webpack-plugin": "3.2.0",
+    "sass": "^1.26.9",
+    "sass-loader": "^9.0.0",
+    "script-ext-html-webpack-plugin": "2.1.3",
+    "svg-sprite-loader": "4.1.3",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "engines": {
+    "node": ">=8.9",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
